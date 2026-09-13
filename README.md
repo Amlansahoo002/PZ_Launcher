@@ -20,6 +20,24 @@ PZLauncher Community brings client launch profiles, mod management, public serve
 
 > PZLauncher is an independent community project. It is not affiliated with or endorsed by The Indie Stone.
 
+> AI was used as a support tool for documentation, translations into languages I do not speak, and testing. This application also brings together many of my existing Project Zomboid tools, with retained project files dating back to January 2022—well before AI-assisted coding became part of my workflow. This is not an AI-generated project, but a long-running personal codebase enhanced with AI support.
+
+> Also include part of my old projects
+> Project	Oldest date
+> PZ_ServerModsManager	2022-01-06
+> PZ_MapGen	2022-01-07
+> PZ_MapMover	2022-01-26
+> PZ_VHSMaker	2022-02-05
+> PZ_ZombieLayerReplacer	2022-02-22
+> PZ_MoveMap	2022-02-22
+> PZ_ChunkWiper	2022-03-11
+> PZ_Trad	2022-06-13
+> PZ_Mapper	2023-01-13
+> PZ_BuildingGenerator	2024-04-12
+> PZ_BiomeMap_Generator	2025-06-15
+> PZ_Mapper_Converter	2026-05-24
+
+
 ## Features
 
 ### Game profiles and launch control
