@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Version>0.21.0</Version>
+    <Product>PZLauncher Community</Product>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <ApplicationIcon>Resources/launcher.ico</ApplicationIcon>
+    <Description>Launcher communautaire non officiel pour Project Zomboid.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentFTP" Version="54.2.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.11" />
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
+    <EmbeddedResource Include="Resources/Languages/*.json" />
+    <EmbeddedResource Include="Resources/Java/pz-loader.jar" />
+    <EmbeddedResource Include="Resources/Java/pz-server-probe.jar" />
+    <EmbeddedResource Include="Resources/Java/pz-config-inspector.jar" />
+    <PackageReference Include="System.Management" Version="10.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Main.cs;Main.Designer.cs;Form1.cs;Form1.Designer.cs;ClientSettings.cs;ClientSettings.Designer.cs;Form_LogAnalyzer.cs;Form_LogAnalyzer.Designer.cs;utils/**/*.cs" />
+    <EmbeddedResource Remove="Main.resx;Form1.resx;ClientSettings.resx;Form_LogAnalyzer.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
